@@ -1,0 +1,38 @@
+###############################################################################################################
+
+					GUIA DE USO
+
+NOTA: Todos los archivos deben abrirse y ejecutarse desde jupiter notebook.
+
+1. Preparación de datos
+
+    * Ejecutar el código del archivo de "Archivos_Diplomado/Codigo/Preparacion y Seleccion de datos.ipynb"
+
+      NOTA: Este archivo genera 4 archivos nuevos en formato .csv con los datos preparados para el entrenamiento
+      de los modelos que se guardan en la dirección "Archivos_Diplomado/Datos" (en esta dirección también 
+      se encuentra el archivo con los datos originales "datos_estacion_temporal.xlsx")
+
+2. Entrenamiento de modelos de regresión (Lineal, KNN, SVM, Random Forest)
+
+    * Para los modelos de regresión, ejecutar el archivo de "Archivos_Diplomado/Codigo/Modelos_regresivos.ipynb".
+
+      NOTA: El archivo contiene todos los modelos de regresión entrenados con sus resultados de cada uno, además
+      de la validación de los mejores modelos en la parte final.
+
+3. Entrenamiento de modelos de series de tiempo (o Autorregresivos) con Redes Neuronales Recurrentes (LSTM)
+
+   3.1 Para el modelo de predicción de "temperatura máxima" abrir y ejecutar el archivo de 
+       Archivos_Diplomado/Codigo/Modelo_autorreg_temp_max.ipynb.
+
+      NOTA: El archivo contiene el modelo predictivo de series de tiempo de precipitación tanto su entrenamiento
+      como su validación. En este caso el archivo guarda el modelo generado en 
+      "Archivos_Diplomado/Código/Mejores_Modelos" como "modelo_temp_max.ipynb".
+
+   3.2 Para el modelo de predicción de "precipitación" abrir y ejecutar el archivo de 
+       Archivos_Diplomado/Codigo/Modelo_autorreg_precipitacion.ipynb.
+
+      NOTA: El archivo contiene el modelo predictivo de series de tiempo de precipitación tanto su entrenamiento
+      como su validación. En este caso el archivo guarda los modelos generados en 
+      "Archivos_Diplomado/Código/Mejores_Modelos" como "modelo_prec.ipynb".
+
+###############################################################################################################
